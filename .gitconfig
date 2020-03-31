@@ -192,3 +192,5 @@
 	program = /usr/local/bin/gpg
 [user]
 	signingkey = D66D7C72
+	name = Viswesh Krishna
+	email = krishnaviswesh@gmail.com

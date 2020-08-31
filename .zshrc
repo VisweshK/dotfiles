@@ -103,11 +103,7 @@ export EDITOR='vim'
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-alias zshconfig="vim ~/.zshrc"
-alias lf="cd ~/life"
-alias aihc="z aihc; conda activate aihc"
-alias snap="z snap; conda activate snap"
-alias deep="ssh -J viswesh@robo.stanford.edu viswesh@deep23.stanford.edu"
+source ~/.aliases
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

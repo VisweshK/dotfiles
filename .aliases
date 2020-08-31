@@ -14,6 +14,12 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 alias g="git"
+alias zshconfig="vim ~/dotfiles/.zshrc"
+alias bootstrap="~/dotfiles/bootstrap.sh"
+alias lf="cd ~/life"
+alias aihc="z aihc; conda activate aihc"
+alias snap="z snap; conda activate snap"
+alias deep="ssh -J viswesh@robo.stanford.edu viswesh@deep23.stanford.edu"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`

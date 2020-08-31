@@ -124,6 +124,9 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Homebrew no autoupdate
+export HOMEBREW_NO_AUTO_UPDATE=1
+
 # Set up GPG
 export GPG_TTY=`tty`
 

@@ -124,6 +124,9 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Conda activate alias
+alias ca="conda activate"
+
 # Homebrew no autoupdate
 export HOMEBREW_NO_AUTO_UPDATE=1
 

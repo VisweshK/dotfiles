@@ -13,6 +13,8 @@ function doIt() {
 		--exclude "init" \
 		--exclude "scripts/" \
 		--exclude "brew.sh" \
+		--exclude "nvim.zip" \
+		--exclude "kitty.zip" \
 		--exclude "LICENSE-MIT.txt" \
 		-avh --no-perms . ~;
 	source ~/.bash_profile;
